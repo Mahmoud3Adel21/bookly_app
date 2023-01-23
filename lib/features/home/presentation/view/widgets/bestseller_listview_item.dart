@@ -27,7 +27,8 @@ class BestSellerListViewItem extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8),
                   color: Colors.red,
                   image: const DecorationImage(
-                      fit: BoxFit.fill, image: AssetImage(AssetsData.testImage)),
+                      fit: BoxFit.fill,
+                      image: AssetImage(AssetsData.testImage)),
                 ),
               ),
             ),
@@ -40,8 +41,8 @@ class BestSellerListViewItem extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * .5,
                     child: Text(
                       'Harry Potter and the Goblet of Fire',
-                      style:
-                          Styles.textStyle20.copyWith(fontFamily: kGTsectraFine),
+                      style: Styles.textStyle20
+                          .copyWith(fontFamily: kGTsectraFine),
                       overflow: TextOverflow.ellipsis,
                       maxLines: 2,
                     ),

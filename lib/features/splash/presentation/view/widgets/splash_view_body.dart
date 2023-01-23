@@ -1,4 +1,3 @@
-
 import 'package:bookly_app/core/assets.dart';
 import 'package:bookly_app/core/utils/app_router.dart';
 

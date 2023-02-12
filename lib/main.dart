@@ -10,6 +10,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'core/utils/service_locator.dart';
 
 void main() {
+  setUpGetIt();
   runApp(const BooklyApp());
 }
 
